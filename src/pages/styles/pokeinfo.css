@@ -1,0 +1,10 @@
+.stats__bar {
+    background: white;
+    height: 30px;
+    width: 100%;
+}
+
+.stats__prog {
+    background: orange;
+    height: 100%;
+}
