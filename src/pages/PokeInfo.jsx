@@ -52,7 +52,7 @@ const PokeInfo = () => {
                 <h3 className='pokeinfo__title'>Type</h3>
                 <ul>
                   {
-                    pokemon?.types.map((type, index) => (<li className={`type--${type.type.name}`} key={index}>{type.type.name}</li>))
+                    pokemon?.types.map((type, index) => (<li className={`type--${pokemon?.types[0].type.name}`} key={index}>{type.type.name}</li>))
                   }
                 </ul>
               </article>
@@ -67,10 +67,10 @@ const PokeInfo = () => {
               </article>
             </div>
             <h2 className='pokeinfo__title'>Stats</h2>
+            <h2 className='pokeinfo__title'>Movements</h2>
             <PokeRadar
               pokemon={pokemon}
             />
-            <h2 className='pokeinfo__title'>Movements</h2>
             <ul className='pokeinfo__moves'>
               {
                 pokemon?.moves.map((move, index) => (<li key={index}>{move.move.name}</li>))

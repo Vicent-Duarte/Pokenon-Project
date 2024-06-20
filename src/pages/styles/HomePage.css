@@ -13,10 +13,11 @@
 
 .pokeHome__banner {
     padding-top: 20px;
-    width: 600px;
+    width: 350px;
 }
 
 .pokeHome__decoration {
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,6 +26,7 @@
     background-color: #dfdfdfc2;
     padding: 20px 0;
     border-radius: 2%;
+    gap: 15px;
 }
 
 .pokeHome__container {
@@ -42,8 +44,10 @@
 }
 
 .pokeHome__container h1 {
-    color: #F10B31;
     font-size: 2.2rem;
+    font-style: italic;
+    color: black;
+    text-shadow: 4px 4px 8px cyan;
 }
 
 .pokeHome__container span {
@@ -52,7 +56,7 @@
 }
 
 .pokeHome form {
-    box-shadow: 0px 2px 2px .01px #949494ad;
+    box-shadow: 1px 3px 3px cyan;
     width: 80%;
     border-radius: 5px 0 0 5px;
     display: flex;
@@ -62,10 +66,10 @@
 
 .pokeHome input {
     border: 1px solid #dfdfdf;
-    background-color: #fffefe;
+    background-color: #070707;
     height: 2.5rem;
     padding-left: 5px;
-    color: rgb(102, 102, 102);
+    color: cyan;
     font-family: inherit;
     font-weight: 600;
     font-size: 1.2rem;
@@ -74,7 +78,9 @@
 }
 
 .pokeHome__btn {
-    background-color: #F10B31;
+    font-style: italic;
+    color: cyan;
+    background-color: black;
     border: none;
     height: 2.5rem;
     width: 30%;

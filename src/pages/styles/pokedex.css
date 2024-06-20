@@ -5,7 +5,11 @@
      display: flex;
      flex-direction: column;
      align-items: center;
-     background-color: #f0f0f0;
+     background-image: url('https://p4.wallpaperbetter.com/wallpaper/420/552/983/pokemon-go-4k-hd-pic-wallpaper-preview.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     opacity: 0.9;
  }
  
  .pokedex__info {
@@ -18,7 +22,10 @@
      align-items: center;
      justify-content: center;
      row-gap: 10px;
+     border: 1px solid none;
+     border-radius: 13px;
      background: url(../../../assets/cuadro_dialogo_original.png);
+     background-color: rgb(186, 252, 252);
      background-position: center;
      background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -29,12 +36,14 @@
      max-width: 100%;
      line-height: 1;
      text-align: center;
-     font-size: 1rem;
+     font-size: 1.2rem;
+     color: black;
  }
  
  .pokedex__title {
-     color: #F10B31;
-     font-size: 1rem;
+     color: #080808;
+     text-shadow: 4px 4px 8px cyan;
+     font-size: 1.5rem;
      line-height: 1;
  }
  
@@ -56,25 +65,26 @@
      justify-content: center;
      align-items: center;
      border-radius: 5px 0 0 5px;
-     box-shadow: 0px 2px 2px .01px #949494ad;
+     box-shadow: 0px 2px 2px .01px cyan;
  }
  
  .pokedex__form select {
      min-width: 300px;
      width: 40%;
      height: 2.5rem;
-     color: rgb(102, 102, 102);
+     font-style: italic;
+     color: cyan;
      border: 1px solid #dfdfdf;
-     background-color: #fffefe;
-     box-shadow: 0px 2px 2px .01px #949494ad;
+     background-color: #0a0101;
+     box-shadow: 0px 2px 2px .01px cyan;
  }
  
  .pokedex__form input {
      border: 1px solid #dfdfdf;
-     background-color: #fffefe;
+     background-color: black;
      height: 2.5rem;
      padding-left: 5px;
-     color: rgb(102, 102, 102);
+     color: cyan;
      font-family: inherit;
      font-weight: 600;
      font-size: 1.2rem;
@@ -82,8 +92,16 @@
      border-radius: 5px 0 0 5px;
  }
  
+::placeholder {
+     color: cyan;
+     font-style: italic;
+     opacity: 0.5;
+}
+
  .pokedex__form button {
-     background-color: #F10B31;
+     font-style: italic;
+     color: black;
+     background-color: cyan;
      border: none;
      height: 2.5rem;
      width: 30%;
@@ -102,7 +120,8 @@
  }
  
  .pagination__btn {
-     background-color: #F10B31;
+     color: cyan;
+     background-color: #080102;
      border: none;
      height: 2.5rem;
      width: 50px;
@@ -111,12 +130,12 @@
  }
  
  .pagination__btn:hover {
-     background-color: #f10b31ea;
+     background-color: cyan;
      border: 2px solid #dfdfdf;
  }
  
  .pagination__item button {
-     background-color: #F10B31;
+     background-color: cyan;
      border: none;
      height: 2.5rem;
      width: 50px;
@@ -125,7 +144,7 @@
  }
  
  .pagination__item button:hover {
-     background-color: #f10b31ea;
+     background-color: cyan;
      border: 2px solid #dfdfdf;
  }
  

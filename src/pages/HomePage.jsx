@@ -31,7 +31,7 @@ const HomePage = () => {
                 </form>
             </div>
             <footer className='poke__footer'>
-                <span>by VDdev </span>
+                <span className='poke__footer_info'>By VD-Dev </span>
             </footer>
         </section>
     )

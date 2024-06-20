@@ -53,7 +53,6 @@ const Pokedex = () => {
   console.log(pokemons?.count);
   console.log(pokemons?.results?.filter(pokeSearch).length);
 
-
   return (
     <>
       <header className='poke__header'>
@@ -65,7 +64,7 @@ const Pokedex = () => {
         </div>
         <div className='pokedex__form'>
           <form onSubmit={handleSubmit}>
-            <input ref={textInput} type="text" />
+            <input ref={textInput} type="text" placeholder='Pokemon name'/>
             <button>Search</button>
           </form>
           <PokeSelect
@@ -110,7 +109,7 @@ const Pokedex = () => {
                 :
                 <>
                   <p>No existen coincidencias con tu busqueda</p>
-                  <p>vuelve a intentarlo</p>
+                  <p>Vuelve a intentarlo</p>
                 </>
           }
         </div>

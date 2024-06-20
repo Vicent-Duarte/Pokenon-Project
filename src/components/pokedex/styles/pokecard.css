@@ -1,5 +1,5 @@
 .pokecard {
-     background-color: rgb(211, 204, 204);
+     background-color: rgb(129, 184, 209);
      position: relative;
      width: 250px;
      border: 5px solid;
@@ -12,10 +12,9 @@
  }
  
  .pokecard:hover {
-     border-color: white;
-     background-color: rgb(59, 59, 59);
+     background-color: rgba(189, 184, 184, 0.527);
      transform: scale(0.7);
-     color: rgb(194, 171, 171);
+     color: black;
  }
  
  .pokecard:hover .pokecard__img {
@@ -35,7 +34,7 @@
  }
  
  .pokecard__gray {
-     color: #707070;
+     color: #0a0909;
  }
  
  .pokecard__back {
@@ -80,7 +79,11 @@
  }
 
  .pokecard__name {
+     background: #000;
+     font-weight: 600;
      font-size: 12px;
+     font-style: italic;
+     
  }
  
  /* ==>> colores <<==*/
@@ -200,7 +203,7 @@
  }
  
  .pokecard--fighting {
-     border-color: #FF8000;
+     border-color: #ffa600;
  }
  
  .pokecard--flying {
@@ -212,11 +215,11 @@
  }
  
  .pokecard--ground {
-     border-color: #915121;
+     border-color: #8f4c1adc;
  }
  
  .pokecard--rock {
-     border-color: #afa981;
+     border-color: #9e9e9ee1;
  }
  
  .pokecard--bug {
@@ -232,19 +235,19 @@
  }
  
  .pokecard--fire {
-     border-color: #e62829;
+     border-color: red;
  }
  
  .pokecard--water {
-     border-color: #2980ef;
+     border-color: #0463e0;
  }
  
  .pokecard--grass {
-     border-color: #3fa129;
+     border-color: #28a00d;
  }
  
  .pokecard--electric {
-     border-color: #fac000;
+     border-color: yellow;
  }
  
  .pokecard--psychic {
@@ -260,7 +263,7 @@
  }
  
  .pokecard--dark {
-     border-color: #50413f;
+     border-color: black;
  }
  
  .pokecard--fairy {
@@ -290,7 +293,7 @@
  }
  
  .cardname--rock {
-     color: #afa981;
+     color: gray;
  }
  
  .cardname--bug {
@@ -306,23 +309,23 @@
  }
  
  .cardname--fire {
-     color: #e62829;
+     color: red;
  }
  
  .cardname--water {
-     color: #2980ef;
+     color: blue;
  }
  
  .cardname--grass {
-     color: #3fa129;
+     color: green;
  }
  
  .cardname--electric {
-     color: #fac000;
+     color: yellow;
  }
  
  .cardname--psychic {
-     color: #ef4179;
+     color: fuchsia;
  }
  
  .cardname--ice {
@@ -334,7 +337,7 @@
  }
  
  .cardname--dark {
-     color: #50413f;
+     color: white;
  }
  
  .cardname--fairy {

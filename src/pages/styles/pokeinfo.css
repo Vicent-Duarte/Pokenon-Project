@@ -1,4 +1,6 @@
 .pokeinfo {
+    color: white;
+    background: rgba(16, 172, 172, 0.726);
     width: 100vw;
     height: 100vh;
     padding-top: 220px;
@@ -13,7 +15,7 @@
     position: absolute;
     right: 50px;
     top: 150px;
-    background-color: #F10B31;
+    background-color: cyan;
     border: none;
     height: 2.5rem;
     width: 150px;
@@ -23,11 +25,13 @@
 }
 
 .pokeinfo__btn__volver:hover {
-    background-color: #f10b31ea;
+    background-color: rgb(23, 235, 199);
     border: 2px solid #dfdfdf;
 }
 
 .pokeinfo__container {
+    background: black;
+    color: white;
     width: 93.75%;
     max-width: 700px;
     display: flex;
@@ -80,11 +84,12 @@
 }
 
 .data__title {
-    color: #3b3b3b;
+    color: cyan;
+    font-size: 1.5rem;
 }
 
 .data__content {
-    font-size: 1.8rem;
+    font-size: 1rem;
 }
 
 .pokeinfo__content {
@@ -100,36 +105,49 @@
 }
 
 .content__type {
+    color: white;
     min-width: 250px;
     width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 5px;
 }
 
 .content__type ul {
+    color: white;
     width: 100%;
-    height: 43px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 10px;
-    padding: 10px 0;
+    padding: 20px 0;
+    gap: 25px;
 }
 
 .pokeinfo__skill {
+    margin-bottom: 25px;
     border: 1px solid transparent;
-    width: 100px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
     border-radius: 10px;
     background-color: #f1f1f1;
-    color: #333333;
+    color: black;
+    gap: 20px;
 }
 
 .pokeinfo__title {
-    margin: 10px 0;
     font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
 }
 
 
@@ -492,7 +510,7 @@
 }
 
 .pokename--rock {
-    color: #afa981;
+    color: gray;
 }
 
 .pokename--bug {
@@ -508,19 +526,19 @@
 }
 
 .pokename--fire {
-    color: #e62829;
+    color: red;
 }
 
 .pokename--water {
-    color: #2980ef;
+    color: blue;
 }
 
 .pokename--grass {
-    color: #3fa129;
+    color: green;
 }
 
 .pokename--electric {
-    color: #fac000;
+    color: yellow;
 }
 
 .pokename--psychic {
@@ -536,7 +554,7 @@
 }
 
 .pokename--dark {
-    color: #50413f;
+    color: white;
 }
 
 .pokename--fairy {
@@ -566,7 +584,7 @@
 }
 
 .container--rock {
-    border-color: #afa981;
+    border-color: gray;
 }
 
 .container--bug {
@@ -582,15 +600,15 @@
 }
 
 .container--fire {
-    border-color: #e62829;
+    border-color: red;
 }
 
 .container--water {
-    border-color: #2980ef;
+    border-color: blue;
 }
 
 .container--grass {
-    border-color: #3fa129;
+    border-color: green;
 }
 
 .container--electric {
@@ -611,7 +629,7 @@
 }
 
 .container--dark {
-    border-color: #50413f;
+    border-color: black;
 }
 
 .container--fairy {
