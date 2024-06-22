@@ -22,7 +22,7 @@ const PokeCard = ({ url }) => {
             {
                 pokeError === true ? (
                     <div>
-                        <p>Cargando</p>
+                        <p>Loading</p>
                     </div>
                 ) : (
                     <article onClick={handlePoke} className={`pokecard pokecard--${pokemon?.types[0].type.name}`}>

@@ -1,5 +1,5 @@
 .pokecard {
-     background-color: rgb(129, 184, 209);
+     background-color: rgba(136, 196, 224, 0.884);
      position: relative;
      width: 250px;
      border: 5px solid;
@@ -25,11 +25,15 @@
      position: fixed;
      top: 350px;
      transform: scale(3);
-     max-width: 80px;
+     max-width: max-content;
      text-align: center;
  }
  
  .pokecard h3 {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
      transition: 0.3s ease-in-out;
  }
  
@@ -57,6 +61,7 @@
  .pokecard hr {
      width: 90%;
      margin: 10px 0;
+    background: #000;
  }
  
  .slot2::before {
@@ -70,6 +75,7 @@
      justify-items: center;
      gap: 10px;
      padding-bottom: 20px;
+     font-weight: 600;
  }
  
  .pokecard__stats li {
@@ -79,11 +85,16 @@
  }
 
  .pokecard__name {
-     background: #000;
+     width: max-content;
+     background: black;
+     padding: 5px;
      font-weight: 600;
      font-size: 12px;
      font-style: italic;
-     
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
  }
  
  /* ==>> colores <<==*/
@@ -239,7 +250,7 @@
  }
  
  .pokecard--water {
-     border-color: #0463e0;
+     border-color: blue;
  }
  
  .pokecard--grass {
@@ -297,7 +308,7 @@
  }
  
  .cardname--bug {
-     color: #91a119;
+     color: rgb(83, 131, 12);
  }
  
  .cardname--ghost {

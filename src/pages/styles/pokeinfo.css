@@ -13,20 +13,21 @@
 
 .pokeinfo__btn__volver {
     position: absolute;
-    right: 50px;
+    right: 20px;
     top: 150px;
-    background-color: cyan;
+    background-color: black;
     border: none;
     height: 2.5rem;
     width: 150px;
     font-size: 1.3rem;
     cursor: pointer;
     z-index: 4;
+    color: cyan;
 }
 
 .pokeinfo__btn__volver:hover {
-    background-color: rgb(23, 235, 199);
-    border: 2px solid #dfdfdf;
+    background-color: rgba(0, 0, 0, 0.76);
+    border: 2px solid cyan;
 }
 
 .pokeinfo__container {
