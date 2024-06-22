@@ -14,7 +14,7 @@
  
  .pokedex__info {
      min-width: 250px;
-     width: 80%;
+     width: 100%;
      min-height: 100px;
      max-height: 50px;
      display: flex;
