@@ -73,7 +73,8 @@
      width: 40%;
      height: 2.5rem;
      font-style: italic;
-     color: cyan;
+     font-weight: 500;
+     color: rgba(0, 255, 255, 0.74);
      border: 1px solid #dfdfdf;
      background-color: #0a0101;
      box-shadow: 0px 2px 2px .01px cyan;
@@ -101,7 +102,7 @@
  .pokedex__form button {
      font-style: italic;
      color: black;
-     background-color: cyan;
+     background-color: rgba(0, 255, 255, 0.671);
      border: none;
      height: 2.5rem;
      width: 30%;
@@ -130,12 +131,12 @@
  }
  
  .pagination__btn:hover {
-     background-color: cyan;
+     background-color: rgba(0, 255, 255, 0.247);
      border: 2px solid #dfdfdf;
  }
  
  .pagination__item button {
-     background-color: cyan;
+     background-color: rgba(45, 226, 226, 0.616);
      border: none;
      height: 2.5rem;
      width: 50px;
@@ -144,7 +145,7 @@
  }
  
  .pagination__item button:hover {
-     background-color: cyan;
+     background-color: rgba(0, 255, 255, 0.349);
      border: 2px solid #dfdfdf;
  }
  
