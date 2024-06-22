@@ -210,7 +210,7 @@
  /* <<== modificador bordes ==>> */
  
  .pokecard--normal {
-     border-color: #9FA19F;
+     border-color: #585c58;
  }
  
  .pokecard--fighting {
@@ -284,7 +284,7 @@
  /* ==>> colores de los textos <<== */
  
  .cardname--normal {
-     color: #9FA19F;
+     color: #585c58;
  }
  
  .cardname--fighting {
